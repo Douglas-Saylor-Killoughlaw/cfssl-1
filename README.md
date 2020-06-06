@@ -9,6 +9,7 @@ docker run -v "$PWD":/pad -it zerynth/cfssl whatever-command-you-need
 ```
 
 The image executes any given command in the ```/pad``` directory. Useful to mount configurations repos and run makefiles.
+It also contains openssl for low level certificate operations.
 
 
 
